@@ -21,4 +21,5 @@
 <img src="https://github.com/deNetzwerkkabel/DarkIServ/blob/main/Installation/Bildschirmfoto%202021-03-02%20um%2012.17.48.png?raw=true"></img>
 </li>
 </ul>
+<strong>IServ ist ein eingetragenes Markenzeichen der IServ GmbH. Copyright (©) 2021 der IServ GmbH. <a href="https://iserv.de">Website</a>
 </div>
