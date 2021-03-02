@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C2182B25ED6A4E007FBACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2182A25ED6A4E007FBACD /* AppDelegate.swift */; };
+		61C2182E25ED6A4E007FBACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C2182C25ED6A4E007FBACD /* Main.storyboard */; };
+		61C2183025ED6A4E007FBACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2182F25ED6A4E007FBACD /* ViewController.swift */; };
+		61C2183225ED6A4F007FBACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C2183125ED6A4F007FBACD /* Assets.xcassets */; };
+		61C2183925ED6A4F007FBACD /* DarkIServ Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61C2183825ED6A4F007FBACD /* DarkIServ Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		61C2183E25ED6A4F007FBACD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C2183D25ED6A4F007FBACD /* Cocoa.framework */; };
+		61C2184125ED6A4F007FBACD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C2184025ED6A4F007FBACD /* SafariWebExtensionHandler.swift */; };
+		61C2185C25ED6A50007FBACD /* smaller.css in Resources */ = {isa = PBXBuildFile; fileRef = 61C2184E25ED6A50007FBACD /* smaller.css */; };
+		61C2185D25ED6A50007FBACD /* darker.css in Resources */ = {isa = PBXBuildFile; fileRef = 61C2184F25ED6A50007FBACD /* darker.css */; };
+		61C2185E25ED6A50007FBACD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185025ED6A50007FBACD /* popup.js */; };
+		61C2185F25ED6A50007FBACD /* 16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185125ED6A50007FBACD /* 16x16.png */; };
+		61C2186025ED6A50007FBACD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185225ED6A50007FBACD /* popup.html */; };
+		61C2186125ED6A50007FBACD /* addon.js in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185325ED6A50007FBACD /* addon.js */; };
+		61C2186225ED6A50007FBACD /* dark.css in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185425ED6A50007FBACD /* dark.css */; };
+		61C2186325ED6A50007FBACD /* IServ_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185525ED6A50007FBACD /* IServ_Logo.png */; };
+		61C2186425ED6A50007FBACD /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185625ED6A50007FBACD /* favicon.png */; };
+		61C2186525ED6A50007FBACD /* 128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185725ED6A50007FBACD /* 128x128.png */; };
+		61C2186625ED6A50007FBACD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185825ED6A50007FBACD /* manifest.json */; };
+		61C2186725ED6A50007FBACD /* 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185925ED6A50007FBACD /* 48x48.png */; };
+		61C2186825ED6A50007FBACD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185A25ED6A50007FBACD /* content.js */; };
+		61C2186925ED6A50007FBACD /* IServLogoFull.svg in Resources */ = {isa = PBXBuildFile; fileRef = 61C2185B25ED6A50007FBACD /* IServLogoFull.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61C2183A25ED6A4F007FBACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61C2181E25ED6A4E007FBACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61C2183725ED6A4F007FBACD;
+			remoteInfo = "DarkIServ Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61C2184925ED6A4F007FBACD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				61C2183925ED6A4F007FBACD /* DarkIServ Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		61C2182625ED6A4E007FBACD /* DarkIServ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkIServ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C2182925ED6A4E007FBACD /* DarkIServ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkIServ.entitlements; sourceTree = "<group>"; };
+		61C2182A25ED6A4E007FBACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61C2182D25ED6A4E007FBACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61C2182F25ED6A4E007FBACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61C2183125ED6A4F007FBACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61C2183325ED6A4F007FBACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C2183825ED6A4F007FBACD /* DarkIServ Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DarkIServ Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C2183D25ED6A4F007FBACD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		61C2184025ED6A4F007FBACD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		61C2184225ED6A4F007FBACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C2184325ED6A4F007FBACD /* DarkIServ_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkIServ_Extension.entitlements; sourceTree = "<group>"; };
+		61C2184E25ED6A50007FBACD /* smaller.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = smaller.css; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/smaller.css; sourceTree = "<group>"; };
+		61C2184F25ED6A50007FBACD /* darker.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = darker.css; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/darker.css; sourceTree = "<group>"; };
+		61C2185025ED6A50007FBACD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/popup.js; sourceTree = "<group>"; };
+		61C2185125ED6A50007FBACD /* 16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16x16.png; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/16x16.png; sourceTree = "<group>"; };
+		61C2185225ED6A50007FBACD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/popup.html; sourceTree = "<group>"; };
+		61C2185325ED6A50007FBACD /* addon.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = addon.js; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/addon.js; sourceTree = "<group>"; };
+		61C2185425ED6A50007FBACD /* dark.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = dark.css; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/dark.css; sourceTree = "<group>"; };
+		61C2185525ED6A50007FBACD /* IServ_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IServ_Logo.png; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/IServ_Logo.png; sourceTree = "<group>"; };
+		61C2185625ED6A50007FBACD /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favicon.png; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/favicon.png; sourceTree = "<group>"; };
+		61C2185725ED6A50007FBACD /* 128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 128x128.png; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/128x128.png; sourceTree = "<group>"; };
+		61C2185825ED6A50007FBACD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/manifest.json; sourceTree = "<group>"; };
+		61C2185925ED6A50007FBACD /* 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 48x48.png; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/48x48.png; sourceTree = "<group>"; };
+		61C2185A25ED6A50007FBACD /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/content.js; sourceTree = "<group>"; };
+		61C2185B25ED6A50007FBACD /* IServLogoFull.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = IServLogoFull.svg; path = ../../Downloads/bchohpbphomhnhnfhmfociifihbfjhpe/IServLogoFull.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61C2182325ED6A4E007FBACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2183525ED6A4F007FBACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2183E25ED6A4F007FBACD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61C2181D25ED6A4E007FBACD = {
+			isa = PBXGroup;
+			children = (
+				61C2182825ED6A4E007FBACD /* DarkIServ */,
+				61C2183F25ED6A4F007FBACD /* DarkIServ Extension */,
+				61C2183C25ED6A4F007FBACD /* Frameworks */,
+				61C2182725ED6A4E007FBACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61C2182725ED6A4E007FBACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61C2182625ED6A4E007FBACD /* DarkIServ.app */,
+				61C2183825ED6A4F007FBACD /* DarkIServ Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61C2182825ED6A4E007FBACD /* DarkIServ */ = {
+			isa = PBXGroup;
+			children = (
+				61C2182925ED6A4E007FBACD /* DarkIServ.entitlements */,
+				61C2182A25ED6A4E007FBACD /* AppDelegate.swift */,
+				61C2182C25ED6A4E007FBACD /* Main.storyboard */,
+				61C2182F25ED6A4E007FBACD /* ViewController.swift */,
+				61C2183125ED6A4F007FBACD /* Assets.xcassets */,
+				61C2183325ED6A4F007FBACD /* Info.plist */,
+			);
+			path = DarkIServ;
+			sourceTree = "<group>";
+		};
+		61C2183C25ED6A4F007FBACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C2183D25ED6A4F007FBACD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61C2183F25ED6A4F007FBACD /* DarkIServ Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61C2184D25ED6A50007FBACD /* Resources */,
+				61C2184025ED6A4F007FBACD /* SafariWebExtensionHandler.swift */,
+				61C2184225ED6A4F007FBACD /* Info.plist */,
+				61C2184325ED6A4F007FBACD /* DarkIServ_Extension.entitlements */,
+			);
+			path = "DarkIServ Extension";
+			sourceTree = "<group>";
+		};
+		61C2184D25ED6A50007FBACD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61C2184E25ED6A50007FBACD /* smaller.css */,
+				61C2184F25ED6A50007FBACD /* darker.css */,
+				61C2185025ED6A50007FBACD /* popup.js */,
+				61C2185125ED6A50007FBACD /* 16x16.png */,
+				61C2185225ED6A50007FBACD /* popup.html */,
+				61C2185325ED6A50007FBACD /* addon.js */,
+				61C2185425ED6A50007FBACD /* dark.css */,
+				61C2185525ED6A50007FBACD /* IServ_Logo.png */,
+				61C2185625ED6A50007FBACD /* favicon.png */,
+				61C2185725ED6A50007FBACD /* 128x128.png */,
+				61C2185825ED6A50007FBACD /* manifest.json */,
+				61C2185925ED6A50007FBACD /* 48x48.png */,
+				61C2185A25ED6A50007FBACD /* content.js */,
+				61C2185B25ED6A50007FBACD /* IServLogoFull.svg */,
+			);
+			name = Resources;
+			path = "DarkIServ Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61C2182525ED6A4E007FBACD /* DarkIServ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C2184A25ED6A4F007FBACD /* Build configuration list for PBXNativeTarget "DarkIServ" */;
+			buildPhases = (
+				61C2182225ED6A4E007FBACD /* Sources */,
+				61C2182325ED6A4E007FBACD /* Frameworks */,
+				61C2182425ED6A4E007FBACD /* Resources */,
+				61C2184925ED6A4F007FBACD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61C2183B25ED6A4F007FBACD /* PBXTargetDependency */,
+			);
+			name = DarkIServ;
+			productName = DarkIServ;
+			productReference = 61C2182625ED6A4E007FBACD /* DarkIServ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61C2183725ED6A4F007FBACD /* DarkIServ Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61C2184625ED6A4F007FBACD /* Build configuration list for PBXNativeTarget "DarkIServ Extension" */;
+			buildPhases = (
+				61C2183425ED6A4F007FBACD /* Sources */,
+				61C2183525ED6A4F007FBACD /* Frameworks */,
+				61C2183625ED6A4F007FBACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkIServ Extension";
+			productName = "DarkIServ Extension";
+			productReference = 61C2183825ED6A4F007FBACD /* DarkIServ Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61C2181E25ED6A4E007FBACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					61C2182525ED6A4E007FBACD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					61C2183725ED6A4F007FBACD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 61C2182125ED6A4E007FBACD /* Build configuration list for PBXProject "DarkIServ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61C2181D25ED6A4E007FBACD;
+			productRefGroup = 61C2182725ED6A4E007FBACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61C2182525ED6A4E007FBACD /* DarkIServ */,
+				61C2183725ED6A4F007FBACD /* DarkIServ Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61C2182425ED6A4E007FBACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2183225ED6A4F007FBACD /* Assets.xcassets in Resources */,
+				61C2182E25ED6A4E007FBACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2183625ED6A4F007FBACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2186725ED6A50007FBACD /* 48x48.png in Resources */,
+				61C2185D25ED6A50007FBACD /* darker.css in Resources */,
+				61C2186025ED6A50007FBACD /* popup.html in Resources */,
+				61C2186525ED6A50007FBACD /* 128x128.png in Resources */,
+				61C2186825ED6A50007FBACD /* content.js in Resources */,
+				61C2186425ED6A50007FBACD /* favicon.png in Resources */,
+				61C2186325ED6A50007FBACD /* IServ_Logo.png in Resources */,
+				61C2186625ED6A50007FBACD /* manifest.json in Resources */,
+				61C2185E25ED6A50007FBACD /* popup.js in Resources */,
+				61C2185F25ED6A50007FBACD /* 16x16.png in Resources */,
+				61C2186925ED6A50007FBACD /* IServLogoFull.svg in Resources */,
+				61C2186225ED6A50007FBACD /* dark.css in Resources */,
+				61C2185C25ED6A50007FBACD /* smaller.css in Resources */,
+				61C2186125ED6A50007FBACD /* addon.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61C2182225ED6A4E007FBACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2183025ED6A4E007FBACD /* ViewController.swift in Sources */,
+				61C2182B25ED6A4E007FBACD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C2183425ED6A4F007FBACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C2184125ED6A4F007FBACD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61C2183B25ED6A4F007FBACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61C2183725ED6A4F007FBACD /* DarkIServ Extension */;
+			targetProxy = 61C2183A25ED6A4F007FBACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61C2182C25ED6A4E007FBACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61C2182D25ED6A4E007FBACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61C2184425ED6A4F007FBACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61C2184525ED6A4F007FBACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		61C2184725ED6A4F007FBACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkIServ Extension/DarkIServ_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DarkIServ Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.DarkIServ.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61C2184825ED6A4F007FBACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkIServ Extension/DarkIServ_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DarkIServ Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.DarkIServ.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		61C2184B25ED6A4F007FBACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DarkIServ/DarkIServ.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "3 BETA";
+				DEVELOPMENT_TEAM = RSA224ZN23;
+				INFOPLIST_FILE = DarkIServ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2021.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.DarkIServ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		61C2184C25ED6A4F007FBACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DarkIServ/DarkIServ.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = "3 BETA";
+				DEVELOPMENT_TEAM = RSA224ZN23;
+				INFOPLIST_FILE = DarkIServ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2021.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.DarkIServ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61C2182125ED6A4E007FBACD /* Build configuration list for PBXProject "DarkIServ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2184425ED6A4F007FBACD /* Debug */,
+				61C2184525ED6A4F007FBACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C2184625ED6A4F007FBACD /* Build configuration list for PBXNativeTarget "DarkIServ Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2184725ED6A4F007FBACD /* Debug */,
+				61C2184825ED6A4F007FBACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61C2184A25ED6A4F007FBACD /* Build configuration list for PBXNativeTarget "DarkIServ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C2184B25ED6A4F007FBACD /* Debug */,
+				61C2184C25ED6A4F007FBACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61C2181E25ED6A4E007FBACD /* Project object */;
+}
