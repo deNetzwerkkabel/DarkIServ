@@ -1,7 +1,7 @@
 # DarkIServ
 #### DarkIServ ist ein Safari-Plugin, welches IServ einen Darkmode verpasst.</br></br>
 ### Vorraussetzungen
-<strong>macOS 10.14 Mojave oder neuer.</br>
+<strong>Mindestanforderung: macOS 10.14 Mojave oder neuer und Safari 11 oder neuer</br>
 Empfohlen und getestet: macOS 11 Big Sur und Safari 14</strong>
 <div>
 <h2>Installation von DarkIServ</h2></br>
