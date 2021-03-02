@@ -1,5 +1,5 @@
 # DarkIServ
-#### DarkIServ ist ein Safari-Plugin, welches IServ einen Darkmode verpasst.
+#### DarkIServ ist ein Safari-Plugin, welches IServ einen Darkmode verpasst.</br></br>
 
 <div>
 <h2>Installation von DarkIServ</h2></br>
