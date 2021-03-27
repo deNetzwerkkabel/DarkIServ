@@ -17,7 +17,7 @@ Empfohlen und getestet: macOS 11 Big Sur, 10.15 Catalina und Safari 14, 13</stro
 <li>Öffne nach der Installation aus dem Programme-Ordner die DarkIServ-App</br>
 <img src="https://github.com/deNetzwerkkabel/DarkIServ/blob/main/DarkIServ%20Installation/Bildschirmfoto%202021-03-27%20um%2017.50.51.png?raw=true"></img>
 </li>
-<li>Um das Plugin zu installieren betätige den Button</br>
+<li>Um das Plugin zu installieren bestätige den Button</br>
 <img src="https://github.com/deNetzwerkkabel/DarkIServ/blob/main/DarkIServ%20Installation/Bildschirmfoto%202021-03-27%20um%2017.51.10.png?raw=true"></img>
 </li>
 <li>Es öffnet sich der Safari. Aktivieren Sie mithilfe der Checkbox das DarkIServ-Plugin.</br>
