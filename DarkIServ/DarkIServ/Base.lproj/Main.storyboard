@@ -41,7 +41,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit DarkIServ" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="DarkIServ Installer schließen" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -77,7 +77,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController showSeguePresentationStyle="single" id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="DarkIServ Installer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
+                    <window key="window" title="DarkIServ Installer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowCollectionBehavior key="collectionBehavior" fullScreenNone="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -99,16 +99,23 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="DarkIServ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="344"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="350"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FWV-e2-WQh" userLabel="IconView">
+                                <rect key="frame" x="20" y="178" width="128" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="HtV-oD-ZM0"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="left" image="AppIcon" id="Hhb-TZ-Dhg"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hVF-oC-v7x" userLabel="IconView">
+                                <rect key="frame" x="332" y="175" width="128" height="135"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="left" imageScaling="proportionallyUpOrDown" image="safari" catalog="system" id="sOE-Zd-Frh"/>
+                            </imageView>
                             <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="42" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZLV-xE-AGT">
-                                <rect key="frame" x="0.0" y="34" width="480" height="265"/>
+                                <rect key="frame" x="0.0" y="34" width="480" height="94"/>
                                 <subviews>
-                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FWV-e2-WQh" userLabel="IconView">
-                                        <rect key="frame" x="176" y="136" width="128" height="129"/>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" image="AppIcon" id="Hhb-TZ-Dhg"/>
-                                    </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EB0-ac-UZR">
                                         <rect key="frame" x="38" y="62" width="404" height="32"/>
                                         <constraints>
@@ -137,29 +144,50 @@ DQ
                                 <visibilityPriorities>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
-                                    <integer value="1000"/>
                                 </visibilityPriorities>
                                 <customSpacing>
                                     <real value="3.4028234663852886e+38"/>
                                     <real value="3.4028234663852886e+38"/>
-                                    <real value="3.4028234663852886e+38"/>
                                 </customSpacing>
                             </stackView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPZ-KN-Suj">
-                                <rect key="frame" x="113" y="0.0" width="255" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="DarkIServ - Ein Projekt von Morten Krisch" id="gwA-Ac-g4E">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gPZ-KN-Suj">
+                                <rect key="frame" x="113" y="6" width="255" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="FgQ-tO-IZe"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="DarkIServ - Ein Projekt von HerrMacUser" id="gwA-Ac-g4E">
                                     <font key="font" metaFont="systemThin" size="13"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I3N-7Y-ZDg">
+                                <rect key="frame" x="196" y="178" width="128" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="yhy-FW-Cdj"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="images-1-removebg-preview" id="Qoa-o7-tLl"/>
+                            </imageView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="hVF-oC-v7x" firstAttribute="leading" secondItem="I3N-7Y-ZDg" secondAttribute="trailing" constant="8" symbolic="YES" id="03J-y3-f8l"/>
+                            <constraint firstAttribute="trailing" secondItem="ZLV-xE-AGT" secondAttribute="trailing" id="4CL-QV-LLL"/>
+                            <constraint firstItem="FWV-e2-WQh" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="43" id="6Fq-In-m7E"/>
+                            <constraint firstItem="I3N-7Y-ZDg" firstAttribute="top" secondItem="hVF-oC-v7x" secondAttribute="top" id="6IM-sk-Bl1"/>
                             <constraint firstAttribute="trailing" secondItem="ZLV-xE-AGT" secondAttribute="trailing" id="7aD-Ze-9ed"/>
-                            <constraint firstItem="ZLV-xE-AGT" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="45" id="AJ3-sx-ZQx"/>
+                            <constraint firstItem="FWV-e2-WQh" firstAttribute="top" secondItem="I3N-7Y-ZDg" secondAttribute="top" id="9NY-OP-4df"/>
+                            <constraint firstItem="ZLV-xE-AGT" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="222" id="AJ3-sx-ZQx"/>
+                            <constraint firstItem="I3N-7Y-ZDg" firstAttribute="leading" secondItem="FWV-e2-WQh" secondAttribute="trailing" constant="48" id="BwD-xv-Vmc"/>
                             <constraint firstAttribute="bottom" secondItem="ZLV-xE-AGT" secondAttribute="bottom" constant="34" id="KVY-ss-lTJ"/>
+                            <constraint firstItem="gPZ-KN-Suj" firstAttribute="top" secondItem="ZLV-xE-AGT" secondAttribute="bottom" constant="12" id="OS2-yO-bvQ"/>
+                            <constraint firstItem="ZLV-xE-AGT" firstAttribute="top" secondItem="FWV-e2-WQh" secondAttribute="bottom" constant="50" id="RwW-yX-fjG"/>
+                            <constraint firstItem="gPZ-KN-Suj" firstAttribute="centerX" secondItem="ZLV-xE-AGT" secondAttribute="centerX" id="enu-Ka-wOp"/>
+                            <constraint firstAttribute="trailing" secondItem="hVF-oC-v7x" secondAttribute="trailing" constant="20" symbolic="YES" id="fZl-aD-dhQ"/>
+                            <constraint firstItem="ZLV-xE-AGT" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="hmE-bQ-Gvk"/>
+                            <constraint firstItem="I3N-7Y-ZDg" firstAttribute="baseline" secondItem="hVF-oC-v7x" secondAttribute="baseline" id="jUu-yk-6lf"/>
                             <constraint firstItem="ZLV-xE-AGT" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="mT6-ee-vkp"/>
+                            <constraint firstItem="FWV-e2-WQh" firstAttribute="baseline" secondItem="I3N-7Y-ZDg" secondAttribute="baseline" id="qHR-dX-6j2"/>
+                            <constraint firstItem="FWV-e2-WQh" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="rrD-Nq-Dx9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -168,10 +196,12 @@ DQ
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="75" y="743"/>
         </scene>
     </scenes>
     <resources>
         <image name="AppIcon" width="128" height="128"/>
+        <image name="images-1-removebg-preview" width="171" height="294"/>
+        <image name="safari" catalog="system" width="15" height="15"/>
     </resources>
 </document>

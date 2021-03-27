@@ -10,7 +10,7 @@ import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
 let appName = "DarkIServ"
-let extensionBundleIdentifier = "com.yourCompany.DarkIServ.Extension"
+let extensionBundleIdentifier = "de.herrmacuser.DarkIServ.Extension"
 
 class ViewController: NSViewController {
 
@@ -29,7 +29,7 @@ class ViewController: NSViewController {
                 if (state.isEnabled) {
                     self.appNameLabel.stringValue = "Die Dark IServ Erweiterung ist aktiviert und kann ab sofort verwendet werden"
                 } else {
-                    self.appNameLabel.stringValue = "Zum Abschließen dernstallation aktivieren Sie bitte das Dark IServ Plugin im Safari"
+                    self.appNameLabel.stringValue = "Zum Abschließen der Installation aktivieren Sie bitte das Dark IServ Plugin im Safari"
                 }
             }
         }
