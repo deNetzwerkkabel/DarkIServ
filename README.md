@@ -1,3 +1,5 @@
+### Edit: IServ hat mit der neusten Softwareversion einen eigenen Darkmode herausgebracht. Diesen könnt ihr in den Accounteinstellungen aktivieren.
+
 # DarkIServ
 #### DarkIServ ist das erste spezifische Plugin, welches mithilfe einer AI erkennt, analysiert und IServ-Oberflächen einen Darkmode verpasst.</br>DarkIServ in Version 2 unterstützt nun auch Big Sur 11.2.3 und Apple Silicon(M1). </br>
 ##### DarkIServ ist auch bald für Chrome und Firefox verfügbar!</br>
