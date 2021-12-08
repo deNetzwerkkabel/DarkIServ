@@ -1,11 +1,9 @@
-### Edit: IServ hat mit der neusten Softwareversion einen eigenen Darkmode herausgebracht. Deshalb ist dieses Projekt eingestellt.
+### Hinweis DarkIServ Version 3.0 kommt
 
 # DarkIServ
-#### DarkIServ ist das erste spezifische Plugin, welches mithilfe einer AI erkennt, analysiert und IServ-Oberflächen einen Darkmode verpasst.</br>DarkIServ in Version 2 unterstützt nun auch Big Sur 11.2.3 und Apple Silicon(M1). </br>
-##### DarkIServ ist auch bald für Chrome und Firefox verfügbar!</br>
+#### DarkIServ ist das erste spezifische Plugin, welches mithilfe einer AI erkennt, analysiert und IServ-Oberflächen einen Darkmode verpasst.</br>DarkIServ in Version 3 unterstützt nun auch macOS 12 Monterey und Safari auf IOS und IPadOS </br>
 ### Vorraussetzungen
-<strong>Mindestanforderung: macOS 10.14 Mojave oder neuer und Safari 11 oder neuer</br>
-Empfohlen und getestet: macOS 11 Big Sur, 10.15 Catalina und Safari 14, 13</strong>
+<strong>Mindestanforderung: macOS 12 Monterey oder neuer und Safari 15 oder neuer</br> IOS und IPadOS 15.0 oder neuer</strong>
 <div>
 <h2>Installation von DarkIServ</h2></br>
 <ul>
