@@ -1,4 +1,4 @@
-### Hinweis DarkIServ Version 3.0 kommt
+### Hinweis: DarkIServ wird nicht mehr weiterentwickelt. IServ hat einen eigenen DarkMode zur Verfügung gestellt.
 
 # DarkIServ
 #### DarkIServ ist das erste spezifische Plugin, welches mithilfe einer AI erkennt, analysiert und IServ-Oberflächen einen Darkmode verpasst.</br>DarkIServ in Version 3 unterstützt nun auch macOS 12 Monterey und Safari auf IOS und IPadOS </br>
